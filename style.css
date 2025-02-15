@@ -99,19 +99,29 @@
     position: absolute;
     top: 30%;
 }
-#brand-section,#body-type-section,#collection-section,.collection-section-header-container{
+#brand-section,
+#body-type-section,
+#collection-section,
+#how-section,
+.collection-section-header-container,
+.how-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
 
-.brand-section-container,.body-type-section-container,.collection-section-container{
+.brand-section-container,
+.body-type-section-container,
+.collection-section-container,
+.how-section-container{
     width: 90vw;
 }
-.brand-section-header,.body-type-section-header{
+.brand-section-header,
+.body-type-section-header{
     display: flex;
 }
-.brand-section-button,.body-type-section-button{
+.brand-section-button,
+.body-type-section-button{
     width: 90%;
     display: flex;
     justify-content: end;
@@ -120,17 +130,20 @@
     width: 88%;
 
 }
-.brand-section-button a,.body-type-section-button a{
+.brand-section-button a,
+.body-type-section-button a{
     text-decoration: none;
     color: #000;
 }
-.brand-container,.body-type-container{
+.brand-container,
+.body-type-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
 }
-.brand-content,.body-type-content{
+.brand-content,
+.body-type-content{
     width: 15%;
     height: 100px;
     background-color: #E5E4E2;
@@ -145,11 +158,13 @@
     margin-bottom: 40px;
     margin-bottom: unset;
 }
-.collection-section-header{
+.collection-section-header,
+.how-section-header{
     width: 55%;
     text-align: center;
 }
-.collection-section-header p{
+.collection-section-header p,
+.how-section-header p{
     padding: 15px 0px;
 
 }
@@ -181,7 +196,9 @@
     border-radius: 5px;
 }
 
-.collection-grid-item .img-container,.specs-container,.button-container{
+.collection-grid-item .img-container,
+.specs-container,
+.button-container{
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -246,4 +263,9 @@
     color: #fff;
     border: none;
     border-radius: 30px;
+}
+.collection-section-header h1,
+.how-section-header h1{
+    font-family: sans-serif;
+
 }
