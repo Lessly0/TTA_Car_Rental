@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+/* Home-section */
 #home-section{
     margin-bottom: 20px;
 }
 .home-container{
-    height: 100vh;
+    height: 90vh;
     background-image: url(./image-1.png);
     background-position: center; 
     color: #fff;     
@@ -99,6 +101,8 @@
     position: absolute;
     top: 30%;
 }
+
+/* Multiple styling */
 #brand-section,
 #body-type-section,
 #collection-section,
@@ -153,6 +157,8 @@
     justify-content: center;
     align-items: center;
 }
+/* Collection-section */
+
 #collection-section{
     background-color: #E5E4E2;
     margin-bottom: 40px;
@@ -246,12 +252,10 @@
 }
 .item-2{
     border: 1px solid #fff;
-
 }
 .item-2 button{
     background-color: #000;
     color: white;
-
 }
 .see-all-button{
     display: flex;
@@ -263,9 +267,73 @@
     color: #fff;
     border: none;
     border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
+
 .collection-section-header h1,
 .how-section-header h1{
     font-family: sans-serif;
+}
 
+/* How-section */
+
+.how-container{
+    display: flex;
+    position: relative;
+}
+.how-container .how-empty{
+    width: 30%;
+}
+.how-steps{
+    position: absolute;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.step-container{
+    display: flex;
+    background-color: #fff;
+    border: 2px solid #E5E4E2;
+    padding: 30px 20px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    flex: 1;
+}
+.step-icon-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-icon{
+    background-color: #E5E4E2;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.step-content{
+    padding-left: 10px;
+}
+
+.step-content h3{
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.step-content p{
+    text-align: justify;
+    padding-right: 25px;
+    font-size: 15px;
+}
+.how-container .car-image{
+    width: 70%;
+    background-color:#E5E4E2;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    border-radius: 20px;
 }
