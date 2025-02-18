@@ -107,7 +107,7 @@
 #body-type-section,
 #collection-section,
 #how-section,
-#service-section
+#service-section,
 .collection-section-header-container,
 .how-section-header-container,
 .service-section-header-container
@@ -306,7 +306,6 @@
     padding: 30px 20px;
     margin: 10px 0px;
     border-radius: 15px;
-    flex: 1;
 }
 .step-icon-container{
     width: 20%;
@@ -352,4 +351,25 @@
     color: white;
     padding: 40px 0px;
     margin-bottom: unset;
+
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.service-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-content{
+    text-align: center;
+}
+.service-content h4{
+    padding: 10px 0px;
+}
+.service-content p{
+    padding: 10px;
 }
