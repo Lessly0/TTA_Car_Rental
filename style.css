@@ -107,7 +107,8 @@ a{
 #download-section,
 .collection-section-header-container,
 .how-section-header-container,
-.service-section-header-container
+.service-section-header-container,
+footer
 {
     display: flex;
     justify-content: center;
@@ -120,7 +121,8 @@ a{
 .how-section-container,
 .service-section-container,
 .comment-section-container,
-.download-section-container{
+.download-section-container,
+.footer-container{
     width: 90vw;
 }
 .brand-section-header,
@@ -468,7 +470,34 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 .download-button-text a{
-    columns: black;
+    color: black;
+}
+/* Footer-section */
+
+footer{
+    margin: unset;
+    background-color: black;
+    padding: 20px 0px;
+    color: #fff;
+}
+.logo{
+    display: flex;
+    width: 20%;
 }
 
+.footer-container{
+    display: flex;
+}
+.nav{
+    width: 60%;
+    text-align: center;
+}
+.nav ul li,.social ul li{
+    display: inline;
+}
+.nav ul a,.social ul a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #fff;
+}
 
