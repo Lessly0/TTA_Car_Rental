@@ -1,8 +1,4 @@
 @media (max-width: 600px) {
-    footer{
-        display: none;
-    } 
-
     .header-content-3{
         display: none;
     }
@@ -89,9 +85,27 @@
     .download-button-container{
         flex-direction: column;
     }
+    .download-descript p{
+        margin-bottom: 10px;
+        border: 2px solid green;
+    }
     .download-button{
         margin: 10px 0px;
     }
+    .footer-container{
+        flex-direction: column;
+    }
+    .logo,.nav,.social{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+
+    }
+
 
 
 
