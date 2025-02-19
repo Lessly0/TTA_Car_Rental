@@ -1,8 +1,4 @@
 @media (max-width: 600px) {
-    #how-section,
-    #service-section,
-    #comment-section,
-    #download-section,
     footer{
         display: none;
     } 
@@ -48,9 +44,57 @@
         display: block;
         margin: 10px 0px;
     }
-    .collection-grid{
+    .collection-grid,.service-grid{
         grid-template-columns: auto;
     }
+    .how-container{
+        flex-direction: column;
+    }
+    .how-container .car-image{
+        width: 100%;
+        height: auto;
+    }
+    .car-image img{
+        width: 70%;
+        height: auto;
+    }
+    .how-empty{
+        display: none;
+    }
+    .how-steps{
+        position: relative;
+        width: 100%;
+    }
+    .comment-button{
+        width: 50%;
+        margin-top: -15px;
+    }
+    .comment-button svg{
+        width: 35%;
+    }
+    .owner-image img{
+        width: 75%;
+    }
+    .comment-section-header h2{
+        font-size: 20px;
+    }
+    .download-section-container{
+        flex-direction: column;
+    }
+    .download-content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .download-button-container{
+        flex-direction: column;
+    }
+    .download-button{
+        margin: 10px 0px;
+    }
+
+
+
 
 
     
