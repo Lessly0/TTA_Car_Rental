@@ -1,31 +1,75 @@
 @media (max-width: 600px) {
+/* Multiple styles */
+    .collection-section-header,
+    .how-section-header,
+    .service-section-header{
+        width: 70%;
+    }
+
+    .collection-grid,
+    .service-grid{
+        grid-template-columns: auto;
+    }
+
+    .how-container,
+    .download-section-container,
+    .download-button-container,
+    .footer-container,
+    .form{
+        flex-direction: column;
+    }
+
+    .brand-content,
+    .body-type-content{
+        width: 30%;
+    }
+
+    .brand-content svg,
+    .body-type-content svg{
+       width: 60%;
+    }
+    .collection-section-header p,
+    .service-section-header p{
+        text-align: justify;
+    }
+
+    .brand-section-container,
+    .body-type-section-container,
+    .collection-section-container,
+    .how-section-container,
+    .service-section-container,
+    .comment-section-container,
+    .download-section-container,
+    .footer-container{
+        width: 80vw;
+    }
+    
+/* Home-section */
     .header-content-3{
         display: none;
     }
     .header-content-1{
-        width: 15%;
+        width: 25%;
+    }
+    .header-content-1 svg{
+        width: 25%;
     }
     .header-content-2{
-        width: 70%;
+        width: 48%;
     }
     .home-container p{
         font-size: 20px;
-        padding-top: 30px;
+        margin-top: 40px;
     }
     .form-container{
         align-items: center;
     }
     .form{
-        flex-direction: column;
         width: 70%;
+        padding: 20px 0px;
     }
-    .brand-content,
-    .body-type-content{
-        width: 30%;
-    }
-    .brand-content svg, .body-type-content svg{
-        width: 60%;
-    }
+/* Brand%body-type section */
+    
     .brand-content p{
         font-size: 13px;
     }
@@ -33,25 +77,20 @@
         display: flex;
         justify-content: center;
     }
-    .collection-section-header{
-        width: 65%;
-    }
+/* Collection-section */
+
     .collection-section-header ul li{
         display: block;
         margin: 10px 0px;
     }
-    .collection-grid,.service-grid{
-        grid-template-columns: auto;
-    }
-    .how-container{
-        flex-direction: column;
-    }
+/* How-section */
+    
     .how-container .car-image{
         width: 100%;
         height: auto;
     }
     .car-image img{
-        width: 70%;
+        width: 100%;
         height: auto;
     }
     .how-empty{
@@ -61,55 +100,62 @@
         position: relative;
         width: 100%;
     }
+/* Service-section */
+
+    .service-content h4{
+        margin: 10px 0px;
+    }
+    .service-icon-container{
+        margin-top: 20px;
+    }
+    .service-section-header p{
+        margin-top: 10px;
+    }
+/* Comment-section */
+    
     .comment-button{
-        width: 50%;
-        margin-top: -15px;
+        width: 70%;
+        margin-top: -8px;
     }
     .comment-button svg{
-        width: 35%;
+        width: 40%;
     }
     .owner-image img{
         width: 75%;
+        padding-top: 5px;
     }
     .comment-section-header h2{
         font-size: 20px;
     }
-    .download-section-container{
-        flex-direction: column;
-    }
+/* Download-section */
+
     .download-content{
         width: 100%;
         padding: 0;
         margin: 0;
     }
-    .download-button-container{
-        flex-direction: column;
+    .download-descript{
+        margin: 30px 0px;
     }
     .download-descript p{
-        margin-bottom: 10px;
-        border: 2px solid green;
+        margin-top: 10px;   
     }
     .download-button{
         margin: 10px 0px;
     }
-    .footer-container{
-        flex-direction: column;
-    }
-    .logo,.nav,.social{
+/* Footer-section */
+    
+    .logo,
+    .nav,
+    .social{
         width: 100%;
         text-align: center;
-        margin: 10px 0px;
+        margin: 15px 0px;
     }
     .logo{
         display: flex;
         justify-content: center;
 
     }
-
-
-
-
-
-
     
 }
