@@ -43,26 +43,35 @@
     .footer-container{
         width: 80vw;
     }
-    
+
 /* Home-section */
+    .home-container{
+        height: 69vh;
+        padding: 10px;
+        background-size: cover;
+    }
     .header-content-3{
         display: none;
     }
     .header-content-1{
-        width: 25%;
+        width: 20%;
+        justify-content:left;
+        margin-left: 10px;
     }
     .header-content-1 svg{
-        width: 25%;
+        width: 40%;
     }
     .header-content-2{
-        width: 48%;
+        width: 52%;
     }
     .home-container p{
-        font-size: 20px;
+        font-size: 22px;
+        padding: 20px;
         margin-top: 40px;
     }
     .form-container{
         align-items: center;
+        margin-top: -130px;
     }
     .form{
         width: 70%;
@@ -83,12 +92,10 @@
         display: block;
         margin: 10px 0px;
     }
+  
 /* How-section */
     
-    .how-container .car-image{
-        width: 100%;
-        height: auto;
-    }
+    .how-container .car-image,
     .car-image img{
         width: 100%;
         height: auto;
@@ -100,6 +107,7 @@
         position: relative;
         width: 100%;
     }
+   
 /* Service-section */
 
     .service-content h4{
@@ -114,11 +122,15 @@
 /* Comment-section */
     
     .comment-button{
-        width: 70%;
-        margin-top: -8px;
+        width: 80%;
+        margin-top: -10px;
     }
     .comment-button svg{
-        width: 40%;
+        width: 50%;
+    }
+    .comment-content{
+        text-align: center;
+        width: 100%;
     }
     .owner-image img{
         width: 75%;
