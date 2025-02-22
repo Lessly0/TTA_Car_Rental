@@ -107,6 +107,9 @@
         position: relative;
         width: 100%;
     }
+    .step-content {
+        margin-left: 15px;
+    }
    
 /* Service-section */
 
